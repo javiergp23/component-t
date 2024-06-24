@@ -1,6 +1,7 @@
 import React from 'react';
 
 const TourismCard = ({ image, title, rating, days, nights }) => (
+  <>
   <div className="relative max-w-sm rounded overflow-hidden shadow-lg m-4 group">
     <img className="w-full" src={image} alt={title} />
     <div className="px-6 py-4">
@@ -15,6 +16,7 @@ const TourismCard = ({ image, title, rating, days, nights }) => (
       </div>
     </div>
   </div>
+  </>
 );
 
 
