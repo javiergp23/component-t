@@ -17,6 +17,7 @@ const TourismCard = ({ image, title, rating, days, nights }) => (
   </div>
 );
 
+
 const App = () => {
   const travelOffers = [
     {
